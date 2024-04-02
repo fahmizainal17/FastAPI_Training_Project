@@ -2,9 +2,42 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/")  # @app. - path operation decorator
-def say_hello():
-    return {"output":"success"}
+@app.get("/")
+async def root():
+    return {"Sender":"Fahmi Zainal"}
+
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# from fastapi import FastAPI
+
+# app = FastAPI()
+
+# @app.get("/")  # @app. - path operation decorator
+# def say_hello():
+#     return {"output":"success"}
 
 # this is for fetching data
 
