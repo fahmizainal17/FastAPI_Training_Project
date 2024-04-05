@@ -1,11 +1,5 @@
-# from fastapi import FastAPI
-
-# app =FastAPI()
-# @app.get("/process_file/{item_id}")
-# def process_file(item_id: int):
-#     return {"sender":item_id}
-
-
+#.............................................................................#
+# Path Parameter
 
 from fastapi import FastAPI
 
@@ -25,13 +19,16 @@ async def read_item(item_id: int):
 
 
 
+#.............................................................................#
 
+# from fastapi import FastAPI
 
+# app =FastAPI()
+# @app.get("/process_file/{item_id}")
+# def process_file(item_id: int):
+#     return {"sender":item_id}
 
-
-
-
-
+#.............................................................................#
 
 # from fastapi import FastAPI
 
@@ -41,30 +38,7 @@ async def read_item(item_id: int):
 # async def root():
 #     return {"Sender":"Fahmi Zainal"}
 
-# #
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#.............................................................................#
 
 # from fastapi import FastAPI
 
