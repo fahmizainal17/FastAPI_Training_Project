@@ -18,7 +18,7 @@ async def read_item(item_id: int):
 def process_file(item_id: int):
     return {"sender": item_id}
 
-#..............................................................................#
+#..............................................................................##
 
 # Root endpoint example
 @app.get("/")
